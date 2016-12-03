@@ -10,6 +10,9 @@ namespace csharp_helloworld
     {
         static void Main(string[] args)
         {
+            Customer c = new Customer { ID = 1, Name = "Name 1" };
+            Console.WriteLine($"{{ID = {c.ID}, Name = '{c.Name}'}}");
+            Console.ReadKey();
         }
     }
 }
