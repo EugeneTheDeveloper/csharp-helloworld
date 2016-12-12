@@ -13,11 +13,13 @@ namespace csharp_helloworld
             Customer c = new Customer { ID = 1, Name = "Name 1" };
             Console.WriteLine($"{{ID = {c.ID}, Name = '{c.Name}'}}");
             Console.WriteLine("rep0-1");
-<<<<<<< HEAD
-            Console.WriteLine("rep1-1");
-=======
             Console.WriteLine("rep0-2");
->>>>>>> origin/master
+            Console.WriteLine("rep1-1");
+<<<<<<< HEAD
+            Console.WriteLine("rep1-2");
+=======
+            Console.WriteLine("rep0-3");
+>>>>>>> d9e7a0a88c18ea869a3dccc03cb34caed44e25e9
             Console.ReadKey();
         }
     }
