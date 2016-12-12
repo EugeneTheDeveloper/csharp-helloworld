@@ -15,11 +15,13 @@ namespace csharp_helloworld
             Console.WriteLine("rep0-1");
             Console.WriteLine("rep0-2");
             Console.WriteLine("rep1-1");
-<<<<<<< HEAD
             Console.WriteLine("rep1-2");
-=======
             Console.WriteLine("rep0-3");
->>>>>>> d9e7a0a88c18ea869a3dccc03cb34caed44e25e9
+<<<<<<< HEAD
+            Console.WriteLine("rep1-3");
+=======
+            Console.WriteLine("rep0-4");
+>>>>>>> ef4e37e043aa58e806da05d0b2d71646556c288d
             Console.ReadKey();
         }
     }
